@@ -1,0 +1,5 @@
+- name: merge
+  approved_by:
+    - ZhiyuanChen
+  mandatory_checks_name:
+    - push
