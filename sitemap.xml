@@ -29,6 +29,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/about/privacy/"/>
     </url>
     <url>
+        <loc>https://puji.danling.org/basics/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/basics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/basics/"/>
+    </url>
+    <url>
         <loc>https://puji.danling.org/basics/conda/</loc>
         <lastmod>2024-08-05</lastmod>
         <changefreq>daily</changefreq>
@@ -57,6 +64,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/basics/slurm/"/>
     </url>
     <url>
+        <loc>https://puji.danling.org/best_practices/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/best_practices/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/best_practices/"/>
+    </url>
+    <url>
         <loc>https://puji.danling.org/best_practices/data_transfer/</loc>
         <lastmod>2024-08-05</lastmod>
         <changefreq>daily</changefreq>
@@ -76,6 +90,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/best_practices/submit/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/best_practices/submit/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/server_details/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/server_details/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/server_details/"/>
     </url>
     <url>
         <loc>https://puji.danling.org/server_details/blscN32HA14P/</loc>
@@ -134,6 +155,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/about/privacy/"/>
     </url>
     <url>
+        <loc>https://puji.danling.org/en/basics/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/basics/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/basics/"/>
+    </url>
+    <url>
         <loc>https://puji.danling.org/en/basics/conda/</loc>
         <lastmod>2024-08-05</lastmod>
         <changefreq>daily</changefreq>
@@ -162,6 +190,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/basics/slurm/"/>
     </url>
     <url>
+        <loc>https://puji.danling.org/en/best_practices/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/best_practices/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/best_practices/"/>
+    </url>
+    <url>
         <loc>https://puji.danling.org/en/best_practices/data_transfer/</loc>
         <lastmod>2024-08-05</lastmod>
         <changefreq>daily</changefreq>
@@ -181,6 +216,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/best_practices/submit/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/best_practices/submit/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/server_details/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/server_details/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/server_details/"/>
     </url>
     <url>
         <loc>https://puji.danling.org/en/server_details/blscN32HA14P/</loc>

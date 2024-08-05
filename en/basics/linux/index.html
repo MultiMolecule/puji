@@ -30,7 +30,7 @@
         <link rel="canonical" href="https://puji.danling.org/en/basics/linux/">
       
       
-        <link rel="prev" href="../../">
+        <link rel="prev" href="../">
       
       
         <link rel="next" href="../conda/">
@@ -298,7 +298,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../" class="md-tabs__link">
           
   
     
@@ -318,7 +318,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../server_details/pjS/" class="md-tabs__link">
+        <a href="../../server_details/" class="md-tabs__link">
           
   
     
@@ -338,7 +338,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../best_practices/develop/" class="md-tabs__link">
+        <a href="../../best_practices/" class="md-tabs__link">
           
   
     
@@ -470,6 +470,10 @@
     
       
         
+          
+        
+      
+        
       
         
       
@@ -497,16 +501,24 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
-            
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     基础知识
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
@@ -514,6 +526,8 @@
             基础知识
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -605,9 +619,27 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#ssh-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      配置ssh Key
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssh-config" class="md-nav__link">
+    <span class="md-ellipsis">
+      配置SSH Config
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#vscode" class="md-nav__link">
     <span class="md-ellipsis">
-      使用vscode
+      使用VSCode
     </span>
   </a>
   
@@ -621,27 +653,42 @@
         <li class="md-nav__item">
   <a href="#linux_1" class="md-nav__link">
     <span class="md-ellipsis">
-      常用Linux命令和操作
+      Linux入门
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Linux入门">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      文件系统和目录权限
+      基本命令
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#shell" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#file-system" class="md-nav__link">
     <span class="md-ellipsis">
-      Shell和环境变量
+      文件系统(File System)和目录权限
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shell-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shell Scripts和环境变量
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -734,6 +781,10 @@
     
       
         
+          
+        
+      
+        
       
         
       
@@ -759,7 +810,7 @@
         
   
   
-    <a href="../../server_details/pjS/" class="md-nav__link">
+    <a href="../../server_details/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -788,6 +839,10 @@
     
       
         
+          
+        
+      
+        
       
         
       
@@ -811,7 +866,7 @@
         
   
   
-    <a href="../../best_practices/develop/" class="md-nav__link">
+    <a href="../../best_practices/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -968,9 +1023,27 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#ssh-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      配置ssh Key
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssh-config" class="md-nav__link">
+    <span class="md-ellipsis">
+      配置SSH Config
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#vscode" class="md-nav__link">
     <span class="md-ellipsis">
-      使用vscode
+      使用VSCode
     </span>
   </a>
   
@@ -984,27 +1057,42 @@
         <li class="md-nav__item">
   <a href="#linux_1" class="md-nav__link">
     <span class="md-ellipsis">
-      常用Linux命令和操作
+      Linux入门
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Linux入门">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      文件系统和目录权限
+      基本命令
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#shell" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#file-system" class="md-nav__link">
     <span class="md-ellipsis">
-      Shell和环境变量
+      文件系统(File System)和目录权限
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shell-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shell Scripts和环境变量
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1056,7 +1144,12 @@
 <p>在Windows中默认的Shell是CMD或者PowerShell，它们也支持部分最基础的Unix shell language，但更多方面还是独立于Unix体系，自成一体。不过，当我们连接到远程主机上，我们使用的就是远程主机上的Shell，与本地的Shell无关，因此即使我们本地的计算机使用的是Windows系统，我们也无需掌握这部分知识。</p>
 </div>
 <div class="tabbed-block">
-<p>TODO</p>
+<p>MacOS自带的终端软件是Terminal.app，它直接支持Unix shell language。我们可以通过以下方式访问：</p>
+<ul>
+<li>直接在Spotlight搜索中输入“Terminal”打开</li>
+<li>或者通过Finder -&gt; 应用程序 -&gt; 实用工具找到并打开Terminal</li>
+</ul>
+<p>默认情况下，MacOS使用Bash作为Shell。如果你希望更换到更现代的zsh，可以参考官方文档完成安装和配置。</p>
 </div>
 </div>
 </div>
@@ -1080,7 +1173,7 @@
 </span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">           </span><span class="o">[</span>-Q<span class="w"> </span>query_option<span class="o">]</span><span class="w"> </span><span class="o">[</span>-R<span class="w"> </span>address<span class="o">]</span><span class="w"> </span><span class="o">[</span>-S<span class="w"> </span>ctl_path<span class="o">]</span><span class="w"> </span><span class="o">[</span>-W<span class="w"> </span>host:port<span class="o">]</span>
 </span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">           </span><span class="o">[</span>-w<span class="w"> </span>local_tun<span class="o">[</span>:remote_tun<span class="o">]]</span><span class="w"> </span>destination<span class="w"> </span><span class="o">[</span>command<span class="o">]</span>
 </span></code></pre></div></td></tr></table></div>
-<p>如果正确安装，你会看到以上信息，这段信息是对ssh指令的使用说明，具体含义我们会在下文中介绍。</p>
+<p>如果正确安装，你会看到以上信息，这段信息是对ssh指令的使用说明，重要的用法我们会在下文中介绍。</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>在unix shell相关的语境下，如果一行以<code>$</code>符号作为开头，则表示这个符号的后续内容是用户提交的指令，这个符号本身不需要你输入到终端中。反之，如果某行不以<code>$</code>符号起始，则表示这行是由系统输出的内容。</p>
@@ -1098,11 +1191,408 @@
 </div>
 </div>
 <h3 id="hostuserauthentication">主机(Host)、用户(User)与认证(Authentication)<a class="headerlink" href="#hostuserauthentication" title="Permanent link">&para;</a></h3>
-<p>使用SSH连接的基本指令是<code>sh [username@]hostname</code>，其中hostname称为主机名，用于指定你要访问的远程服务器；username称之为用户名，是远程服务器上已经注册的一个用户账户。</p>
-<h3 id="vscode">使用vscode<a class="headerlink" href="#vscode" title="Permanent link">&para;</a></h3>
-<h2 id="linux_1">常用Linux命令和操作<a class="headerlink" href="#linux_1" title="Permanent link">&para;</a></h2>
-<h2 id="_1">文件系统和目录权限<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<h2 id="shell">Shell和环境变量<a class="headerlink" href="#shell" title="Permanent link">&para;</a></h2>
+<p>在SSH指令中，<code>ssh [username@]hostname</code>是基本格式，其中：</p>
+<ul>
+<li><code>hostname</code>: 远程服务器的主机名或IP地址。</li>
+<li><code>[username@]</code>: 可选部分，指定远程服务器上的用户名。</li>
+</ul>
+<p>如果省略了<code>[username@]</code>，那么默认会使用在本地计算机上登录的用户账户作为远程服务器上的用户名。</p>
+<p>通常，服务器需要以一定的方式验证你的身份来保证你的数据安全，这个过程称为认证。认证方式有两种：密码(passward)和密钥(SSH key)。密码认证是最常见的认证方式，你只需要在连接时输入正确的密码即可；而密钥认证通过一对软件生成的公钥和私钥来验证你的身份，只要你正确配置了密钥，在连接时ssh会自动使用你的私钥进行认证，无需你手动输入密码。出于安全和方便考虑，我们强烈建议大家使用密钥认证。</p>
+<h3 id="ssh-key">配置ssh Key<a class="headerlink" href="#ssh-key" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Linux/MacOS</label><label for="__tabbed_3_2">Windows10/11</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>首先，你需要确认本地是否已经有<code>SSH key</code>，如果有，那么你就无需重新生成。在本地shell中输入以下指令:
+<div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
+<span class="normal"><a href="#__codelineno-2-2">2</a></span>
+<span class="normal"><a href="#__codelineno-2-3">3</a></span>
+<span class="normal"><a href="#__codelineno-2-4">4</a></span>
+<span class="normal"><a href="#__codelineno-2-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a>$<span class="w"> </span>ls<span class="w"> </span>-al<span class="w"> </span>~/.ssh
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a>drwxr-xr-x<span class="w">  </span><span class="m">2</span><span class="w"> </span>username<span class="w"> </span>username<span class="w"> </span><span class="m">4096</span><span class="w"> </span>Aug<span class="w">  </span><span class="m">5</span><span class="w"> </span><span class="m">21</span>:49<span class="w"> </span>.
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a>drwxr-x---<span class="w"> </span><span class="m">21</span><span class="w"> </span>username<span class="w"> </span>username<span class="w"> </span><span class="m">4096</span><span class="w"> </span>Aug<span class="w">  </span><span class="m">5</span><span class="w"> </span><span class="m">21</span>:52<span class="w"> </span>..
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4"></a>-rw-------<span class="w">  </span><span class="m">1</span><span class="w"> </span>username<span class="w"> </span>username<span class="w"> </span><span class="m">2602</span><span class="w"> </span>Aug<span class="w">  </span><span class="m">5</span><span class="w"> </span><span class="m">20</span>:13<span class="w"> </span>id_rsa
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5"></a>-rw-------<span class="w">  </span><span class="m">1</span><span class="w"> </span>username<span class="w"> </span>username<span class="w">  </span><span class="m">568</span><span class="w"> </span>Aug<span class="w">  </span><span class="m">5</span><span class="w"> </span><span class="m">20</span>:13<span class="w"> </span>id_rsa.pub
+</span></code></pre></div></td></tr></table></div>
+如果存在<code>id_rsa</code>和<code>id_rsa.pub</code>文件，则说明你已经生成过SSH key了。如果不存在，则输入以下指令生成:
+<div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-3-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-3-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-3-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-3-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-3-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-3-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-3-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-3-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-3-10">10</a></span>
+<span class="normal"><a href="#__codelineno-3-11">11</a></span>
+<span class="normal"><a href="#__codelineno-3-12">12</a></span>
+<span class="normal"><a href="#__codelineno-3-13">13</a></span>
+<span class="normal"><a href="#__codelineno-3-14">14</a></span>
+<span class="normal"><a href="#__codelineno-3-15">15</a></span>
+<span class="normal"><a href="#__codelineno-3-16">16</a></span>
+<span class="normal"><a href="#__codelineno-3-17">17</a></span>
+<span class="normal"><a href="#__codelineno-3-18">18</a></span>
+<span class="normal"><a href="#__codelineno-3-19">19</a></span>
+<span class="normal"><a href="#__codelineno-3-20">20</a></span>
+<span class="normal"><a href="#__codelineno-3-21">21</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a>$<span class="w"> </span>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>rsa
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a>Generating<span class="w"> </span>public/private<span class="w"> </span>rsa<span class="w"> </span>key<span class="w"> </span>pair.
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a>Enter<span class="w"> </span>file<span class="w"> </span><span class="k">in</span><span class="w"> </span>which<span class="w"> </span>to<span class="w"> </span>save<span class="w"> </span>the<span class="w"> </span>key<span class="w"> </span><span class="o">(</span>/path/to/home/.ssh/id_rsa<span class="o">)</span>:<span class="w">    </span><span class="c1"># 直接回车使用默认路径</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a>Enter<span class="w"> </span>passphrase<span class="w"> </span><span class="o">(</span>empty<span class="w"> </span><span class="k">for</span><span class="w"> </span>no<span class="w"> </span>passphrase<span class="o">)</span>:<span class="w">                         </span><span class="c1"># 直接回车不对SSH-key二次加密</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a>Enter<span class="w"> </span>same<span class="w"> </span>passphrase<span class="w"> </span>again:<span class="w">                                        </span><span class="c1"># 直接回车确认密码为空</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a>Your<span class="w"> </span>identification<span class="w"> </span>has<span class="w"> </span>been<span class="w"> </span>saved<span class="w"> </span><span class="k">in</span><span class="w"> </span>/path/to/home/.ssh/id_rsa.
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7"></a>Your<span class="w"> </span>public<span class="w"> </span>key<span class="w"> </span>has<span class="w"> </span>been<span class="w"> </span>saved<span class="w"> </span><span class="k">in</span><span class="w"> </span>/path/to/home/.ssh/id_rsa.pub.
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8"></a>The<span class="w"> </span>key<span class="w"> </span>fingerprint<span class="w"> </span>is:
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9"></a>SHA256:AFPEOVIUXhe09rwYXGzh3MvtBc5r20va+kBgkW5hLnQ<span class="w"> </span>user@localhost<span class="w">   </span><span class="c1"># 这里显示的是公钥的指纹，帮助人快速识别公钥</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10"></a>The<span class="w"> </span>key<span class="err">&#39;</span>s<span class="w"> </span>randomart<span class="w"> </span>image<span class="w"> </span>is:<span class="w">                                       </span><span class="c1"># 根据公钥生成的随机图像，帮助人快速识别公钥</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11"></a>+---<span class="o">[</span>RSA<span class="w"> </span><span class="m">2048</span><span class="o">]</span>----+
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12"></a><span class="p">|</span><span class="w">    </span>o**o..+oo<span class="w">    </span><span class="p">|</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13"></a><span class="p">|</span><span class="w">    </span>.++.<span class="w"> </span>o<span class="w"> </span>E.o<span class="w">   </span><span class="p">|</span>
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14"></a><span class="p">|</span><span class="w">     </span>.o..<span class="w"> </span>BoB<span class="w"> </span>o<span class="w">  </span><span class="p">|</span>
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15"></a><span class="p">|</span><span class="w">       </span>.<span class="w"> </span>+.O.+<span class="w"> </span>+<span class="w"> </span><span class="p">|</span>
+</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16"></a><span class="p">|</span><span class="w">        </span><span class="nv">S</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>o.<span class="o">=</span><span class="w"> </span>o<span class="p">|</span>
+</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17"></a><span class="p">|</span><span class="w">           </span>o..<span class="w"> </span>o.<span class="p">|</span>
+</span><span id="__span-3-18"><a id="__codelineno-3-18" name="__codelineno-3-18"></a><span class="p">|</span><span class="w">          </span>.<span class="w"> </span>..o..<span class="p">|</span>
+</span><span id="__span-3-19"><a id="__codelineno-3-19" name="__codelineno-3-19"></a><span class="p">|</span><span class="w">             </span>.<span class="o">=</span>o<span class="w"> </span><span class="p">|</span>
+</span><span id="__span-3-20"><a id="__codelineno-3-20" name="__codelineno-3-20"></a><span class="p">|</span><span class="w">             </span>o++o<span class="p">|</span>
+</span><span id="__span-3-21"><a id="__codelineno-3-21" name="__codelineno-3-21"></a>+----<span class="o">[</span>SHA256<span class="o">]</span>-----+
+</span></code></pre></div></td></tr></table></div></p>
+</div>
+<div class="tabbed-block">
+<p>首先，你需要确认本地是否已经有<code>SSH key</code>，如果有，那么你就无需重新生成。在本地shell中输入以下指令:
+<div class="language-powershell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">PowerShell</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span>
+<span class="normal"><a href="#__codelineno-4-2">2</a></span>
+<span class="normal"><a href="#__codelineno-4-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="nb">PS </span><span class="n">C</span><span class="p">:\</span><span class="n">Users</span><span class="p">\</span><span class="n">username</span><span class="p">&gt;</span> <span class="nb">ls </span><span class="p">~/.</span><span class="n">ssh</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="n">-a</span><span class="p">----</span>         <span class="n">2024</span><span class="p">/</span><span class="n">8</span><span class="p">/</span><span class="n">5</span>     <span class="n">20</span><span class="p">:</span><span class="n">13</span>           <span class="n">2602</span> <span class="n">id_rsa</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="n">-a</span><span class="p">----</span>         <span class="n">2024</span><span class="p">/</span><span class="n">8</span><span class="p">/</span><span class="n">5</span>     <span class="n">20</span><span class="p">:</span><span class="n">13</span>            <span class="n">568</span> <span class="n">id_rsa</span><span class="p">.</span><span class="n">pub</span>
+</span></code></pre></div></td></tr></table></div>
+如果存在<code>id_rsa</code>和<code>id_rsa.pub</code>文件，则说明你已经生成过SSH key了。如果不存在，则输入以下指令生成:
+<div class="language-powershell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">PowerShell</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-5-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-5-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-5-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-5-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-5-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-5-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-5-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-5-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-5-10">10</a></span>
+<span class="normal"><a href="#__codelineno-5-11">11</a></span>
+<span class="normal"><a href="#__codelineno-5-12">12</a></span>
+<span class="normal"><a href="#__codelineno-5-13">13</a></span>
+<span class="normal"><a href="#__codelineno-5-14">14</a></span>
+<span class="normal"><a href="#__codelineno-5-15">15</a></span>
+<span class="normal"><a href="#__codelineno-5-16">16</a></span>
+<span class="normal"><a href="#__codelineno-5-17">17</a></span>
+<span class="normal"><a href="#__codelineno-5-18">18</a></span>
+<span class="normal"><a href="#__codelineno-5-19">19</a></span>
+<span class="normal"><a href="#__codelineno-5-20">20</a></span>
+<span class="normal"><a href="#__codelineno-5-21">21</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="nb">PS </span><span class="n">C</span><span class="p">:\</span><span class="n">Users</span><span class="p">\</span><span class="n">username</span><span class="p">&gt;</span> <span class="n">ssh-keygen</span> <span class="n">-t</span> <span class="n">rsa</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="n">Generating</span> <span class="n">public</span><span class="p">/</span><span class="n">private</span> <span class="n">rsa</span> <span class="n">key</span> <span class="n">pair</span><span class="p">.</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="n">Enter</span> <span class="n">file</span> <span class="k">in</span> <span class="n">which</span> <span class="n">to</span> <span class="n">save</span> <span class="n">the</span> <span class="n">key</span> <span class="p">(</span><span class="n">C</span><span class="p">:\</span><span class="n">Users</span><span class="p">\</span><span class="n">username</span><span class="p">/.</span><span class="n">ssh</span><span class="p">/</span><span class="n">id_rsa</span><span class="p">):</span>    <span class="c"># 直接回车使用默认路径</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4"></a><span class="n">Enter</span> <span class="n">passphrase</span> <span class="p">(</span><span class="n">empty</span> <span class="k">for</span> <span class="n">no</span> <span class="n">passphrase</span><span class="p">):</span>                         <span class="c"># 直接回车不对SSH-key二次加密</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5"></a><span class="n">Enter</span> <span class="n">same</span> <span class="n">passphrase</span> <span class="n">again</span><span class="p">:</span>                                        <span class="c"># 直接回车确认密码为空</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6"></a><span class="n">Your</span> <span class="n">identification</span> <span class="n">has</span> <span class="n">been</span> <span class="n">saved</span> <span class="k">in</span> <span class="n">C</span><span class="p">:\</span><span class="n">Users</span><span class="p">\</span><span class="n">username</span><span class="p">/.</span><span class="n">ssh</span><span class="p">/</span><span class="n">id_rsa</span><span class="p">.</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7"></a><span class="n">Your</span> <span class="n">public</span> <span class="n">key</span> <span class="n">has</span> <span class="n">been</span> <span class="n">saved</span> <span class="k">in</span> <span class="n">C</span><span class="p">:\</span><span class="n">Users</span><span class="p">\</span><span class="n">username</span><span class="p">/.</span><span class="n">ssh</span><span class="p">/</span><span class="n">id_rsa</span><span class="p">.</span><span class="n">pub</span><span class="p">.</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8"></a><span class="n">The</span> <span class="n">key</span> <span class="n">fingerprint</span> <span class="n">is</span><span class="p">:</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9"></a><span class="n">SHA256</span><span class="p">:</span><span class="n">AFPEOVIUXhe09rwYXGzh3MvtBc5r20va</span><span class="p">+</span><span class="n">kBgkW5hLnQ</span> <span class="n">user</span><span class="nv">@localhost</span>   <span class="c"># 这里显示的是公钥的指纹，帮助人快速识别公钥</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10"></a><span class="n">The</span> <span class="n">key</span><span class="err">&#39;</span><span class="n">s</span> <span class="n">randomart</span> <span class="n">image</span> <span class="n">is</span><span class="p">:</span>                                       <span class="c"># 根据公钥生成的随机图像，帮助人快速识别公钥</span>
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11"></a><span class="p">+---</span><span class="no">[RSA 2048]</span><span class="p">----+</span>
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12"></a><span class="p">|</span>    <span class="n">o</span><span class="p">**</span><span class="n">o</span><span class="p">..+</span><span class="n">oo</span>    <span class="p">|</span>
+</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13"></a><span class="p">|</span>    <span class="p">.++.</span> <span class="n">o</span> <span class="n">E</span><span class="p">.</span><span class="n">o</span>   <span class="p">|</span>
+</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14"></a><span class="p">|</span>     <span class="p">.</span><span class="n">o</span><span class="p">..</span> <span class="n">BoB</span> <span class="n">o</span>  <span class="p">|</span>
+</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15"></a><span class="p">|</span>       <span class="p">.</span> <span class="p">+.</span><span class="n">O</span><span class="p">.+</span> <span class="p">+</span> <span class="p">|</span>
+</span><span id="__span-5-16"><a id="__codelineno-5-16" name="__codelineno-5-16"></a><span class="p">|</span>        <span class="n">S</span> <span class="p">=</span> <span class="n">o</span><span class="p">.=</span> <span class="n">o</span><span class="p">|</span>
+</span><span id="__span-5-17"><a id="__codelineno-5-17" name="__codelineno-5-17"></a><span class="p">|</span>           <span class="n">o</span><span class="p">..</span> <span class="n">o</span><span class="p">.|</span>
+</span><span id="__span-5-18"><a id="__codelineno-5-18" name="__codelineno-5-18"></a><span class="p">|</span>          <span class="p">.</span> <span class="p">..</span><span class="n">o</span><span class="p">..|</span>
+</span><span id="__span-5-19"><a id="__codelineno-5-19" name="__codelineno-5-19"></a><span class="p">|</span>             <span class="p">.=</span><span class="n">o</span> <span class="p">|</span>
+</span><span id="__span-5-20"><a id="__codelineno-5-20" name="__codelineno-5-20"></a><span class="p">|</span>             <span class="n">o</span><span class="p">++</span><span class="n">o</span><span class="p">|</span>
+</span><span id="__span-5-21"><a id="__codelineno-5-21" name="__codelineno-5-21"></a><span class="p">+----</span><span class="no">[SHA256]</span><span class="p">-----+</span>
+</span></code></pre></div></td></tr></table></div></p>
+</div>
+</div>
+</div>
+<p>现在，你在本地目录<code>.ssh</code>下至少拥有了两个文件:</p>
+<ul>
+<li><code>id_rsa</code>: 私钥文件，保存在本地，用于身份验证。</li>
+<li><code>id_rsa.pub</code>: 公钥文件，你需要将它上传到远程服务器上，用于身份验证。</li>
+</ul>
+<p>你可以用文本编辑器查看它们的内容：</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">id_rsa.pub</label><label for="__tabbed_4_2">id_rsa</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>公钥文件的内容是一行字符串，形如:
+<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1"></a>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6YhZoTIm2Jkf1pD3nVZL/ZuVF2NFAzOr6cSesI2HIaAnhj0GS4Bj84KYM+9+fDVFay4H3CG8Rf+puiSD+4XEMUuer6f66yQALqo51LzMhxjDwVYq5BQ4Ek4+bWK84p1JS6AuieWXzZMa2fkz2Kwqik7V53akp33lnw/vxBpP4pAjTLP9lmRCk9RnpUsTpWzewIZiqIXBrJpZv68CuO8jzW574nGzs8KSSF/kGZXGiCvoigj2uAfbSicRljedA+fOKWe8N0CKwEAzobCIDfHzp8zzWyENrzdu1cn4ZN19F9bt7CmYmVWQSmrqvouP3Pf+Ce0IgjSZBdsBFv2pdiTkT username@localhost
+</span></code></pre></div></td></tr></table></div></p>
+</div>
+<div class="tabbed-block">
+<p>私钥文件的内容是很多行字符串，形如:
+<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-7-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-7-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-7-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-7-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-7-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-7-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-7-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-7-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-7-10">10</a></span>
+<span class="normal"><a href="#__codelineno-7-11">11</a></span>
+<span class="normal"><a href="#__codelineno-7-12">12</a></span>
+<span class="normal"><a href="#__codelineno-7-13">13</a></span>
+<span class="normal"><a href="#__codelineno-7-14">14</a></span>
+<span class="normal"><a href="#__codelineno-7-15">15</a></span>
+<span class="normal"><a href="#__codelineno-7-16">16</a></span>
+<span class="normal"><a href="#__codelineno-7-17">17</a></span>
+<span class="normal"><a href="#__codelineno-7-18">18</a></span>
+<span class="normal"><a href="#__codelineno-7-19">19</a></span>
+<span class="normal"><a href="#__codelineno-7-20">20</a></span>
+<span class="normal"><a href="#__codelineno-7-21">21</a></span>
+<span class="normal"><a href="#__codelineno-7-22">22</a></span>
+<span class="normal"><a href="#__codelineno-7-23">23</a></span>
+<span class="normal"><a href="#__codelineno-7-24">24</a></span>
+<span class="normal"><a href="#__codelineno-7-25">25</a></span>
+<span class="normal"><a href="#__codelineno-7-26">26</a></span>
+<span class="normal"><a href="#__codelineno-7-27">27</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1"></a>-----BEGIN RSA PRIVATE KEY-----
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2"></a>MIIEpAIBAAKCAQEAumIWaEyJtiZH9aQ951WS/2blRdjRQMzq+nEnrCNhyGgJ4Y9B
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3"></a>kuAY/OCmDPvfnw1RWsuB9whvEX/qbokg/uFxDFLnq+n+uskAC6qOdS8zIcYw8FWK
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4"></a>uQUOBJOPm1ivOKdSUugLonll82TGtn5M9isKopO1ed2pKd95Z8P78QaT+KQI0yz/
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5"></a>ZZkQpPUZ6VLE6Vs3sCGYqiFwayaWb+vArjvI81ue+Jxs7PCkkhf5BmVxogr6IoI9
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6"></a>rgH20onEZY3nQPnzilnvDdAisBAM6GwiA3x86fM81shDa83btXJ+GTdfRfW7ewpm
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7"></a>JlVkEpq6r6Lj9z3/gntCII0mQXbARb9qXYk5EwIDAQABAoIBAQCSi5cEsNFCd7zy
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8"></a>pg3KO12WFQhGL+Dvq29CNQA1d6hlk2/ZevLbEfpzsgq9gLjl7Om/ku2AF5CE2Oex
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9"></a>u35HCWkCgJkJcbVIlcvEYHkcKF1yu8s03H1zVkccUA2E3mj/CYhQCYVEXWFMyzr2
+</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10"></a>uD24/ESjabIxvJhKhRyG+vC4JSzpPG9V8ZQrerkLAT7xSNZTXqkDCbSnspcI6yPb
+</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11"></a>iOa7Bw0sQnSJIVciisT0sINteqKSd6S5TqSB9PsIgsmvbBk9fkCjynNE4bY3ewCC
+</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12"></a>WShyliCO6RrBr2tShMLDfsxmoLUrZlxWBeoKYmVZRs+uWBKVdHjBWAlQMH+ivrV6
+</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13"></a>8B4ADhQBAoGBAPDOIsHQhnKieTfFxTBNKekXzIctMytSONg5/E82vohGqsRKZXr+
+</span><span id="__span-7-14"><a id="__codelineno-7-14" name="__codelineno-7-14"></a>41Zag/M5vDA+JStBtSMO6IDU2Rw+Hn1gHnTPKnfRx/aCLIeytax//A5QooJ6ORYx
+</span><span id="__span-7-15"><a id="__codelineno-7-15" name="__codelineno-7-15"></a>7WuLk1mBZNNAoZwjdiKpnimNyWWrrPX4aIBVtkK3Vf2KwuZIyOI1R9sTAoGBAMYk
+</span><span id="__span-7-16"><a id="__codelineno-7-16" name="__codelineno-7-16"></a>11E0t6i6KYXZaRtZKdQCX1BjBqZLlliBfvl/fSwSBssDZdt1ucPN4Uun1mPgy0cT
+</span><span id="__span-7-17"><a id="__codelineno-7-17" name="__codelineno-7-17"></a>dXaMO7X7eaY6+IOo47tAiHk4VzqlNLk+Y35A+KikBzeNm7TD9DwJiBpOmPFwR1nP
+</span><span id="__span-7-18"><a id="__codelineno-7-18" name="__codelineno-7-18"></a>OqOjSSRusGirHOE3BcudV5o0h6rmogFMHIcsNuoBAoGBAOAEZIE5pFnwnCQucAtH
+</span><span id="__span-7-19"><a id="__codelineno-7-19" name="__codelineno-7-19"></a>Pb4CzdrTSc77ZraA+yAWJZpRY3vIWi/Z/1POUQJsq42Vwq5DKme67sErQe7sOyEX
+</span><span id="__span-7-20"><a id="__codelineno-7-20" name="__codelineno-7-20"></a>0j2InFFrb0L8RsDWl/wp9Cq9CPGpEoJ7YAu0hRe3MDz222GN+9CzStgNd1aGJxmM
+</span><span id="__span-7-21"><a id="__codelineno-7-21" name="__codelineno-7-21"></a>RmtdUXkvZWfBNx9Uhs0qE/bRAoGAAaOAXF2RP0X63e6EXgOIwwYZ/7Ix9eIeJjE7
+</span><span id="__span-7-22"><a id="__codelineno-7-22" name="__codelineno-7-22"></a>+ZhCUsD7aWZnyz7YAHSNbnC+5yiOxdG1YPub6s9fnC5Uq9ITwBKyjj4XCpcfLoED
+</span><span id="__span-7-23"><a id="__codelineno-7-23" name="__codelineno-7-23"></a>laG37L0eiikTppUQSgbSJ1WLEkQZcvaxx3SsQC7iKptvq7UmyR5OASp6DMHHiTc1
+</span><span id="__span-7-24"><a id="__codelineno-7-24" name="__codelineno-7-24"></a>7TBCbAECgYAYLiTd1V0xkzHxNLsQvVt/OiCBkIjxEHq+TD9Ap8DiFVQ2PEgd9nd0
+</span><span id="__span-7-25"><a id="__codelineno-7-25" name="__codelineno-7-25"></a>jryIZCX7jr77L1L7qUW0pGD1HDR2bYx5JNeI3hkBC+fgTiQ28ZCNgb2jKmRpVwNE
+</span><span id="__span-7-26"><a id="__codelineno-7-26" name="__codelineno-7-26"></a>lOOA05wlJ+PoRXd6Z8QuDZ5vmLrW2X/mZKuOF1u1d2c1xoi+s6UBhQ==
+</span><span id="__span-7-27"><a id="__codelineno-7-27" name="__codelineno-7-27"></a>-----END RSA PRIVATE KEY-----
+</span></code></pre></div></td></tr></table></div></p>
+</div>
+</div>
+</div>
+<div class="admonition alert">
+<p class="admonition-title">Alert</p>
+<p>请不要直接复制使用这里的公钥和私钥，务必自己生成。公钥和私钥总是成对且独特的，公钥可以公开，私钥则需要妥善保管，不应在任何地方公开。</p>
+</div>
+<p>对于OpenSSH来说，所有和SSH相关的信息都会保存在<code>.ssh</code>目录下，在本地如此，在服务器上也如此。在SSH服务器上，系统通过<code>~/.ssh/authorized_keys</code>文件来管理哪些用户可以使用SSH登录到服务器。<code>authorized_keys</code>文件是一个文本文件，每一行代表一个公钥，当用户使用公钥进行身份验证时，系统会检查<code>authorized_keys</code>文件中是否存在对应的公钥，如果存在则允许登录，否则拒绝登录。因此，配置SSH密钥认证就是要将<code>id_rsa.pub</code>文件中的公钥内容追加到<code>authorized_keys</code>文件中。实验室的各个算力集群都提供了相应的网页控制台来管理密钥，你应当查阅相应的<a href="../../server_details/">服务器文档</a>后在控制台中提交你的公钥来完成配置，而无需手动编辑<code>authorized_keys</code>文件。</p>
+<p>如果你第一次链接到一个新的服务器，你可能会看到如下提示：
+<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-8-1">1</a></span>
+<span class="normal"><a href="#__codelineno-8-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1"></a>ECDSA key fingerprint is SHA256:ZUiMybZcoVMqJVOt7DiSKjAhMgJkhZ0nNc0SnvIoaVs.
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2"></a>Are you sure you want to continue connecting (yes/no/[fingerprint])?
+</span></code></pre></div></td></tr></table></div>
+这是服务器的公钥指纹，与你的公钥无关。它是每个服务器自身的标识，用于确认你要连接的服务器是否正确，输入yes并回车即可。之后，这个指纹就会保存到本地的<code>~/.ssh/known_hosts</code>文件中。这个文件里每一行都是一个曾经连接过的服务器，如果在某次连接时，目标服务器的指纹与保存的指纹不一致，连接就会自动断开。这个设计是防止你在不知情的情况下连接到了被替换的服务器上。</p>
+<h3 id="ssh-config">配置SSH Config<a class="headerlink" href="#ssh-config" title="Permanent link">&para;</a></h3>
+<p>现在，我们重新查看一下SSH的用法:
+<div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-9-1">1</a></span>
+<span class="normal"><a href="#__codelineno-9-2">2</a></span>
+<span class="normal"><a href="#__codelineno-9-3">3</a></span>
+<span class="normal"><a href="#__codelineno-9-4">4</a></span>
+<span class="normal"><a href="#__codelineno-9-5">5</a></span>
+<span class="normal"><a href="#__codelineno-9-6">6</a></span>
+<span class="normal"><a href="#__codelineno-9-7">7</a></span>
+<span class="normal"><a href="#__codelineno-9-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1"></a>$<span class="w"> </span>ssh
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2"></a>usage:<span class="w"> </span>ssh<span class="w"> </span><span class="o">[</span>-46AaCfGgKkMNnqsTtVvXxYy<span class="o">]</span><span class="w"> </span><span class="o">[</span>-B<span class="w"> </span>bind_interface<span class="o">]</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3"></a><span class="w">           </span><span class="o">[</span>-b<span class="w"> </span>bind_address<span class="o">]</span><span class="w"> </span><span class="o">[</span>-c<span class="w"> </span>cipher_spec<span class="o">]</span><span class="w"> </span><span class="o">[</span>-D<span class="w"> </span><span class="o">[</span>bind_address:<span class="o">]</span>port<span class="o">]</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4"></a><span class="w">           </span><span class="o">[</span>-E<span class="w"> </span>log_file<span class="o">]</span><span class="w"> </span><span class="o">[</span>-e<span class="w"> </span>escape_char<span class="o">]</span><span class="w"> </span><span class="o">[</span>-F<span class="w"> </span>configfile<span class="o">]</span><span class="w"> </span><span class="o">[</span>-I<span class="w"> </span>pkcs11<span class="o">]</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5"></a><span class="w">           </span><span class="o">[</span>-i<span class="w"> </span>identity_file<span class="o">]</span><span class="w"> </span><span class="o">[</span>-J<span class="w"> </span><span class="o">[</span>user@<span class="o">]</span>host<span class="o">[</span>:port<span class="o">]]</span><span class="w"> </span><span class="o">[</span>-L<span class="w"> </span>address<span class="o">]</span>
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6"></a><span class="w">           </span><span class="o">[</span>-l<span class="w"> </span>login_name<span class="o">]</span><span class="w"> </span><span class="o">[</span>-m<span class="w"> </span>mac_spec<span class="o">]</span><span class="w"> </span><span class="o">[</span>-O<span class="w"> </span>ctl_cmd<span class="o">]</span><span class="w"> </span><span class="o">[</span>-o<span class="w"> </span>option<span class="o">]</span><span class="w"> </span><span class="o">[</span>-p<span class="w"> </span>port<span class="o">]</span>
+</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7"></a><span class="w">           </span><span class="o">[</span>-Q<span class="w"> </span>query_option<span class="o">]</span><span class="w"> </span><span class="o">[</span>-R<span class="w"> </span>address<span class="o">]</span><span class="w"> </span><span class="o">[</span>-S<span class="w"> </span>ctl_path<span class="o">]</span><span class="w"> </span><span class="o">[</span>-W<span class="w"> </span>host:port<span class="o">]</span>
+</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8"></a><span class="w">           </span><span class="o">[</span>-w<span class="w"> </span>local_tun<span class="o">[</span>:remote_tun<span class="o">]]</span><span class="w"> </span>destination<span class="w"> </span><span class="o">[</span>command<span class="o">]</span>
+</span></code></pre></div></td></tr></table></div>
+其中，最常用的有：</p>
+<ul>
+<li><code>-p port</code>: 指定SSH连接的端口，默认为22，与服务器的设置有关。是否需要修改可以在服务器文档中查询</li>
+<li><code>-i identity_file</code>: 指定私钥文件，默认为<code>~/.ssh/id_rsa</code>。</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>SSH实际上提供了很多其他功能，例如使用<code>SSH -L</code>选项可以指定本地端口转发，使用<code>SSH -R</code>选项可以指定远程端口转发，使用<code>scp</code>指令可以传输本地文件到服务器等，更多信息可以自行上网查阅。</p>
+</div>
+<p>对于常用的服务器，你可以把它们的配置写入<code>~/.ssh/config</code>文件中，这样你就可以通过简单的命令来管理它们了。例如，你可以将以下内容添加到你的<code>~/.ssh/config</code>文件中：
+<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-10-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-10-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-10-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-10-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-10-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-10-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-10-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-10-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-10-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-10-10">10</a></span>
+<span class="normal"><a href="#__codelineno-10-11">11</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1"></a>Host server1
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2"></a>    HostName server1.example.com
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3"></a>    Port 22
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4"></a>    User username
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5"></a>    IdentityFile ~/.ssh/id_rsa
+</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6"></a>
+</span><span id="__span-10-7"><a id="__codelineno-10-7" name="__codelineno-10-7"></a>Host server2
+</span><span id="__span-10-8"><a id="__codelineno-10-8" name="__codelineno-10-8"></a>    HostName server2.example.com
+</span><span id="__span-10-9"><a id="__codelineno-10-9" name="__codelineno-10-9"></a>    Port 22
+</span><span id="__span-10-10"><a id="__codelineno-10-10" name="__codelineno-10-10"></a>    User username
+</span><span id="__span-10-11"><a id="__codelineno-10-11" name="__codelineno-10-11"></a>    IdentityFile ~/.ssh/id_rsa
+</span></code></pre></div></td></tr></table></div>
+这样你就可以通过<code>ssh server1</code>或<code>ssh server2</code>来登录到相应的服务器了。</p>
+<h3 id="vscode">使用VSCode<a class="headerlink" href="#vscode" title="Permanent link">&para;</a></h3>
+<p>除了命令行方式外，你还可以使用支持SSH的IDE来管理你的Linux服务器代码。VSCode是一款广泛使用的开发环境，它提供了Remote Development扩展包，允许你在本地编辑代码，并在远程服务器上运行和调试：</p>
+<ol>
+<li>打开VSCode。</li>
+<li>安装“Remote - SSH”扩展。</li>
+<li>在VSCode的左侧菜单栏中，点击“Remote Explorer”图标。</li>
+<li>如果你已经配置好了<code>~/.ssh/config</code>，你保存的服务器会自动出现在远程资源管理器中。如果没有，你可以点击“+”按钮来手动添加服务器。</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>使用VSCode第一次连接到一个新的远程服务器时，需要在远程服务器上安装vscode的后台服务。当远程服务器可以连接到公网时，这个过程是自动进行的，而当远程服务器无法连接公网，vscode会尝试在本地下载后通过<code>scp</code>传输到服务器上进行安装。然而，我们的S集群既无法连接公网也禁止<code>scp</code>传输，此时你需要先配置代理上网，具体操作请查阅集群相关文档。</p>
+</div>
+<h2 id="linux_1">Linux入门<a class="headerlink" href="#linux_1" title="Permanent link">&para;</a></h2>
+<h3 id="_1">基本命令<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<p>在开始使用Linux服务器之前，熟悉一些常用的Linux命令是非常重要的。以下是一些基本的、你可能经常需要使用的命令：</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ls</code></td>
+<td>列出当前目录下的文件和子目录</td>
+</tr>
+<tr>
+<td><code>cd &lt;dir&gt;</code></td>
+<td>改变工作目录到 <code>&lt;dir&gt;</code></td>
+</tr>
+<tr>
+<td><code>mkdir</code></td>
+<td>创建新的目录</td>
+</tr>
+<tr>
+<td><code>rm</code></td>
+<td>删除一个文件或目录</td>
+</tr>
+<tr>
+<td><code>cp</code></td>
+<td>复制一个文件或目录</td>
+</tr>
+<tr>
+<td><code>mv</code></td>
+<td>移动或重命名文件</td>
+</tr>
+<tr>
+<td><code>touch</code></td>
+<td>创建空文件</td>
+</tr>
+<tr>
+<td><code>echo</code></td>
+<td>输出文本到标准输出或者写入到一个文件</td>
+</tr>
+<tr>
+<td><code>cat</code></td>
+<td>显示或合并文本文件内容</td>
+</tr>
+<tr>
+<td><code>grep</code></td>
+<td>在文件中搜索符合条件的行</td>
+</tr>
+<tr>
+<td><code>tar</code></td>
+<td>打包和压缩文件</td>
+</tr>
+<tr>
+<td><code>ps</code></td>
+<td>查看正在运行的进程</td>
+</tr>
+<tr>
+<td><code>top</code></td>
+<td>实时显示系统状态</td>
+</tr>
+<tr>
+<td><code>kill</code></td>
+<td>终止一个进程</td>
+</tr>
+<tr>
+<td><code>sudo</code></td>
+<td>以root权限执行命令</td>
+</tr>
+</tbody>
+</table>
+<p>每个指令的具体使用方式可以通过<code>man &lt;command&gt;</code>或<code>&lt;command&gt; --help</code>来获取帮助文档。</p>
+<h3 id="file-system">文件系统(File System)和目录权限<a class="headerlink" href="#file-system" title="Permanent link">&para;</a></h3>
+<p>Linux使用一种名为Unix File System (UFS)的文件系统，它有一个层次结构来组织文件。每一个文件或目录都有拥有者（owner）、组群（group）和其他用户（others）三个级别的权限。每个级别下有读（r）、写（w）和执行（x）三种基本权限。</p>
+<ul>
+<li>读（r）: 可以查看内容</li>
+<li>写（w）: 可以修改内容或创建新文件/目录</li>
+<li>执行（x）: 对于目录，表示可以列出其内容；对于文件，则表示可运行</li>
+</ul>
+<p>你可以使用<code>ls -l</code>命令来查看文件的详细信息和权限。例如：</p>
+<div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-11-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1"></a>drwxr-xr-x<span class="w"> </span><span class="m">2</span><span class="w"> </span>user<span class="w"> </span>group<span class="w"> </span><span class="m">4096</span><span class="w"> </span>Oct<span class="w"> </span><span class="m">13</span><span class="w"> </span><span class="m">08</span>:12<span class="w"> </span>directory_name
+</span></code></pre></div></td></tr></table></div>
+<ul>
+<li>第一个字符 <code>d</code> 表示这是一个目录。</li>
+<li>接下来的三组权限分别对应拥有者、所属组和其他用户的权限。</li>
+</ul>
+<p>要更改文件或目录的权限，可以使用<code>chmod</code>命令。例如：
+<div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-12-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1"></a>chmod<span class="w"> </span>u+x<span class="w"> </span>filename<span class="w">  </span><span class="c1"># 给所有者增加执行权限</span>
+</span></code></pre></div></td></tr></table></div></p>
+<p>或者使用数值方式设置权限（4=读，2=写，1=执行，最终数值是三种权限之和）
+<div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-13-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1"></a>chmod<span class="w"> </span><span class="m">755</span><span class="w"> </span>filename<span class="w">  </span><span class="c1"># 设置为所有者可读写执行，所属组和其他用户只可读和执行。</span>
+</span></code></pre></div></td></tr></table></div></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>你可能觉得这些数字看起来很奇怪，但如果把它们写为二进制，例如，<code>7 5 5</code>写为<code>111 101 101</code>，这些数字就变得非常直观了。每一组权限中的三个二进制位分别对应读、写和执行权限。</p>
+</div>
+<p>此外，如果你在远程服务器上使用了<code>ls -l</code>，你可能会感到奇怪，为什么ls无法看到之前提到的<code>~/.ssh</code>目录？因为这个目录是隐藏的，需要使用<code>ls -a</code>才能看到。在Linux中，以<code>.</code>开头的文件和目录都是隐藏的，它们不会被默认显示出来。此外，还有两个隐藏的特殊目录，分别是<code>.</code>和<code>..</code>，分别表示当前目录和上一级目录。</p>
+<h3 id="shell-scripts">Shell Scripts和环境变量<a class="headerlink" href="#shell-scripts" title="Permanent link">&para;</a></h3>
+<p>Shell作为人机交互的解释器，既可以从终端接受你的指令，也可以直接从文本文件中读取指令并执行。这种文本文件被称为Shell脚本（Shell Script）。你可以使用任何文本编辑器编写和保存这样的脚本，然后通过<code>bash &lt;script_name&gt;</code>或者给脚本加上可执行权限后直接运行来执行它。例如：</p>
+<p><div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-14-1">1</a></span>
+<span class="normal"><a href="#__codelineno-14-2">2</a></span>
+<span class="normal"><a href="#__codelineno-14-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1"></a><span class="ch">#!/bin/bash</span>
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2"></a><span class="nv">string_to_be_printed</span><span class="o">=</span><span class="s2">&quot;Hello, World!&quot;</span>
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3"></a><span class="nb">echo</span><span class="w"> </span><span class="nv">$string_to_be_printed</span>
+</span></code></pre></div></td></tr></table></div>
+这个shell script由3行构成，第一行是“Shebang”，它告诉系统这个脚本应该由哪个解释器来执行。第二行是一个变量声明，第三行则是输出该变量的内容。运行这个文件，系统会在命令行中输出<code>Hello, World!</code>。相比于直接在终端输入指令，使用脚本的好处是你可以将一系列操作打包成一个可执行的文件，方便重复使用和分享。</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>如果你使用<code>bash &lt;script_name&gt;</code>的方式运行脚本，shebang不会起作用，因为bash会直接执行脚本中的指令，而不是通过解释器执行。只有直接把脚本作为可执行文件运行时，shebang才会起作用。</p>
+</div>
+<p>除了你在脚本中定义的变量外，Shell还保存了一些预定义的变量，我们称为环境变量。环境变量在Linux中非常重要，几乎所有的命令行程序都会使用它们来获取信息或者传递信息。例如<code>$PATH</code>变量指定了shell应当在哪些路径搜索可执行文件，只有在这些路径下的文件可以不加前缀地运行，如<code>ssh</code>实际上是<code>/usr/bin</code>下的一个可执行文件，这是一个被<code>$PATH</code>默认包含的路径。你可以通过<code>env</code>指令来查看当前保存的全部环境变量。</p>
+<p>Shell中直接声明的变量，如上面的<code>string_to_be_printed</code>只能在当前的shell或当前运行的脚本中使用，而无法被其他的程序读取，因此它们并不是环境变量。那么，如何改变环境变量呢？一种方式是显示地添加或删除，Linux中有专门的系统指令：</p>
+<p><div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-15-1">1</a></span>
+<span class="normal"><a href="#__codelineno-15-2">2</a></span>
+<span class="normal"><a href="#__codelineno-15-3">3</a></span>
+<span class="normal"><a href="#__codelineno-15-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1"></a><span class="c1"># 假设该文件名为test.sh</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">HELLO_STRING1</span><span class="o">=</span><span class="s2">&quot;Hello, World1!&quot;</span><span class="w"> </span><span class="c1"># export用于添加环境变量</span>
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3"></a><span class="nb">export</span><span class="w"> </span><span class="nv">HELLO_STRING2</span><span class="o">=</span><span class="s2">&quot;Hello, World2!&quot;</span><span class="w"> </span><span class="c1"># export用于添加环境变量</span>
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4"></a><span class="nb">unset</span><span class="w"> </span>HELLO_STRING1<span class="w">                   </span><span class="c1"># unset用于删除环境变量</span>
+</span></code></pre></div></td></tr></table></div>
+通过<code>source test.sh</code>运行该脚本后，HELLO_STRING2就被添加到了环境变量中，而HELLO_STRING1则被添加后又删除了。</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><code>source &lt;script name&gt;</code>命令运行脚本和<code>bash &lt;script name&gt;</code>命令运行脚本的效果非常相似，但不同之处在于前者会直接在当前shell中运行脚本，而后者会在一个新的子shell中运行脚本。因此，如果你希望脚本中的变量能被保留，你应该使用<code>source &lt;script name&gt;</code>而不是<code>bash &lt;script name&gt;</code>。</p>
+</div>
+<p>另一种方式是对某一行指令临时添加，只需要在指令前声明变量，如：
+<div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-16-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1"></a><span class="nv">CUDA_VISIABLE_DEVICES</span><span class="o">=</span><span class="m">0</span><span class="w"> </span>python<span class="w"> </span>train.py
+</span></code></pre></div></td></tr></table></div>
+以这种方式声明的变量会以环境变量的形式作用在当前指令上，但是只对这行有效，不会保留。</p>
+<p>然而，显式声明的环境变量也不是永久保存的，每次你打开一个新的shell，它们都会被重置。有没有办法永久保存一些环境变量，而无需每次都重新添加呢？当然！事实上，每一个shell都提供了一个特殊的脚本文件，如bash的<code>~/.bashrc</code>和zsh的<code>~/.zshrc</code>，它们会在你每次打开一个新的shell时自动<code>source</code>。因此，你可以把添加环境变量的指令写入到这些文件中，这样就可以永久保存这些环境变量了。</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>通常，我们使用大写字母来命名环境变量，以区分普通变量。</p>
+</div>
 
 
 
@@ -1123,7 +1613,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2024-07-31 11:03:32</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2024-08-05 18:18:19</span>
   </span>
 
     
@@ -1211,7 +1701,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../" class="md-footer__link md-footer__link--prev" aria-label="Previous: 噗叽">
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: index">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1221,7 +1711,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                噗叽
+                index
               </div>
             </div>
           </a>
