@@ -10,16 +10,19 @@ repo_url: https://github.com/MultiMolecule/puji
 nav:
   - 噗叽: index.md
   - 基础知识:
+      - index: basics/index.md
       - 使用Linux服务器: basics/linux.md
       - 使用Conda管理环境: basics/conda.md
       - 使用Slurm作业调度系统: basics/slurm.md
       - 数据管理与传输: basics/data.md
   - 实验室服务器介绍:
+      - index: server_details/index.md
       - S集群: server_details/pjS.md
       - 北京超算A100: server_details/blscN32HA14P.md
       - 北京超算4090: server_details/blscN40R4PJ.md
       - CPU单机: server_details/pjcpu.md
   - 最佳实践指南:
+      - index: best_practices/index.md
       - 开发环境配置: best_practices/develop.md
       - 数据传输: best_practices/data_transfer.md
       - 训练任务提交: best_practices/submit.md
