@@ -2,16 +2,212 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://puji.danling.org/</loc>
-        <lastmod>2024-07-05</lastmod>
+        <lastmod>2024-08-05</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/"/>
     </url>
     <url>
-        <loc>https://puji.danling.org/zh/</loc>
-        <lastmod>2024-07-05</lastmod>
+        <loc>https://puji.danling.org/about/</loc>
+        <lastmod>2024-08-05</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/zh/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/about/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/about/license/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/about/license/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/about/license/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/about/privacy/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/about/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/about/privacy/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/basics/conda/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/basics/conda/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/basics/conda/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/basics/data/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/basics/data/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/basics/data/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/basics/linux/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/basics/linux/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/basics/linux/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/basics/slurm/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/basics/slurm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/basics/slurm/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/best_practices/data_transfer/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/best_practices/data_transfer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/best_practices/data_transfer/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/best_practices/develop/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/best_practices/develop/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/best_practices/develop/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/best_practices/submit/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/best_practices/submit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/best_practices/submit/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/server_details/blscN32HA14P/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/server_details/blscN32HA14P/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/server_details/blscN32HA14P/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/server_details/blscN40R4PJ/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/server_details/blscN40R4PJ/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/server_details/blscN40R4PJ/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/server_details/pjS/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/server_details/pjS/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/server_details/pjS/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/server_details/pjcpu/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/server_details/pjcpu/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/server_details/pjcpu/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/about/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/about/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/about/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/about/license/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/about/license/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/about/license/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/about/privacy/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/about/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/about/privacy/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/basics/conda/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/basics/conda/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/basics/conda/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/basics/data/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/basics/data/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/basics/data/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/basics/linux/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/basics/linux/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/basics/linux/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/basics/slurm/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/basics/slurm/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/basics/slurm/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/best_practices/data_transfer/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/best_practices/data_transfer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/best_practices/data_transfer/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/best_practices/develop/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/best_practices/develop/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/best_practices/develop/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/best_practices/submit/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/best_practices/submit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/best_practices/submit/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/server_details/blscN32HA14P/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/server_details/blscN32HA14P/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/server_details/blscN32HA14P/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/server_details/blscN40R4PJ/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/server_details/blscN40R4PJ/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/server_details/blscN40R4PJ/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/server_details/pjS/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/server_details/pjS/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/server_details/pjS/"/>
+    </url>
+    <url>
+        <loc>https://puji.danling.org/en/server_details/pjcpu/</loc>
+        <lastmod>2024-08-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://puji.danling.org/en/server_details/pjcpu/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://puji.danling.org/server_details/pjcpu/"/>
     </url>
 </urlset>
